@@ -12,6 +12,7 @@ if [ -z "${OUTDIR}" ]; then
 fi
 
 KERNEL_IMAGE=${OUTDIR}/Image
+
 INITRD_IMAGE=${OUTDIR}/initramfs.cpio.gz
 
 if [ ! -e ${KERNEL_IMAGE} ]; then
